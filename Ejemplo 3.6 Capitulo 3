@@ -1,0 +1,10 @@
+Algoritmo area_rectangulo
+	Escribir "Ingresar altura rectangulo";
+	Leer altura;
+	Escribir "Ingrese base rectangulo";
+	Leer base;
+	Escribir "Ingrese radio circulo";
+	Leer radio;
+	areaRectangulo <- altura*base-3.14*radio*radio;
+	Escribir "El area del rectangulo es", areaRectangulo
+FinAlgoritmo
