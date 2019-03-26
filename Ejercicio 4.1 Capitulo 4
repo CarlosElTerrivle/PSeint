@@ -1,0 +1,19 @@
+Proceso mayor_de_cuatro
+	contador <- 1;
+	Escribir "Ingrese la cantidad de digitos";
+	Leer digitos;
+	Escribir "Ingrese el primer numero";
+	Leer numMayor;
+	Mientras (digitos>contador) Hacer
+		Escribir "Ingrese segundo numero";
+		Leer num2;
+		Si (numMayor>num2) Entonces
+			numMayor<- numMayor;
+		FinSi
+		Si (num2>numMayor) Entonces
+			numMayor<-num2;
+		FinSi
+		contador <- contador+1;
+	FinMientras
+	Escribir "El numero mayor es ",numMayor;
+FinProceso
