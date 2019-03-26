@@ -1,0 +1,16 @@
+Proceso nota_
+	Escribir "Ingrese la nota";
+	Leer nota;
+	Si nota>=1.0 y nota<=3.9 Entonces
+		Escribir "Insuficiente ",nota;
+	FinSi
+		Si nota>=4.0 y nota<=4.9 Entonces
+			Escribir "Suficiente ",nota;
+		FinSi
+		Si nota>=5.0 y nota<=5.9 Entonces
+			Escribir "Bien ",nota; 
+		FinSi
+		Si nota>=6.0 y nota<=7.0 Entonces
+			Escribir "Muy bien ", nota;
+		FinSi
+FinProceso
